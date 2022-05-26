@@ -1,0 +1,1 @@
+## This repo has the svg artwork for the Backed Community NFT and bunny traits for its avatar.
