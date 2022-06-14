@@ -86,7 +86,7 @@
 
 	/* Contributor */
 	<use x="0" y="5" xlink:href="#counter" class="contributor"/>
-	<text x="9" y="7" class="st2">x7477</text>
+	<text x="9" y="7" class="st2">x7</text>
 
 	/* Community */
 	<use x="0" y="10" xlink:href="#starrow"/>
