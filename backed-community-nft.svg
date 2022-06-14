@@ -31,20 +31,22 @@
 	</g>	
 	<g id="earnedxp" width="3" height="3">
 		<use x="0" xlink:href="#star"/>
-		<rect class="starshine" x="0" y="1" width="1" height="1"><animate attributeName="opacity" values="0;.6;0" dur="5s" begin="0s" repeatCount="indefinite" /></rect>
+		<rect class="starshine" x="0" y="1" width="1" height="1"><animate attributeName="opacity" values="0;.8;0" dur="5s" begin="0s" repeatCount="indefinite" /></rect>
 		<rect class="starshine" x="1" y="2" width="1" height="1"><animate attributeName="opacity" values="0;.8;0" dur="5s" begin="2s" repeatCount="indefinite" /></rect>
 		<rect class="starshine" x="1" y="1" width="1" height="1"><animate attributeName="opacity" values="0;.5;0" dur="5s" begin="1200ms" repeatCount="indefinite" /></rect>
+		<rect class="starshine" x="2" y="1" width="1" height="1"><animate attributeName="opacity" values="0;.4;0" dur="5s" begin="3s" repeatCount="indefinite" /></rect>
+
 	</g>
 	<g id="counter">
 		<use x="3" xlink:href="#star"/>
 		<rect class="starshine" x="3" y="1" width="1" height="1"><animate attributeName="opacity" values="0;.6;0" dur="3s" begin="0s" repeatCount="indefinite" /></rect>
-		<rect class="starshine" x="4" y="2" width="1" height="1"><animate attributeName="opacity" values="0;.8;0" dur="3s" begin="2s" repeatCount="indefinite" /></rect>
+		<rect class="starshine" x="4" y="2" width="1" height="1"><animate attributeName="opacity" values="0;.9;0" dur="3s" begin="2s" repeatCount="indefinite" /></rect>
 		<rect class="starshine" x="4" y="1" width="1" height="1"><animate attributeName="opacity" values="0;.5;0" dur="3s" begin="1200ms" repeatCount="indefinite" /></rect>	
 		<rect x="0" y="0" width="1" height="1" />
 		<rect x="1" y="2" width="1" height="1" />
 		<rect x="7" y="0" width="1" height="1" />
 		<rect class="starshine" x="0" y="0" width="1" height="1"><animate attributeName="opacity" values="0;.6;0" dur="4s" begin="0s" repeatCount="indefinite" /></rect>
-		<rect class="starshine" x="1" y="2" width="1" height="1"><animate attributeName="opacity" values="0;.8;0" dur="4s" begin="2s" repeatCount="indefinite" /></rect>
+		<rect class="starshine" x="1" y="2" width="1" height="1"><animate attributeName="opacity" values="0;.9;0" dur="4s" begin="2s" repeatCount="indefinite" /></rect>
 		<rect class="starshine" x="7" y="0" width="1" height="1"><animate attributeName="opacity" values="0;.8;0" dur="4s" begin="3s" repeatCount="indefinite" /></rect>
 	</g>	
 /* Define glow filter */
@@ -64,7 +66,7 @@
 
 /* Stats */
 <g transform="translate(41 58)">
-	<text><tspan x="-2" y="2" class="st1">ACTIVITY</tspan><tspan x="-2" y="8" class="st1">CONTRIBUTOR</tspan><tspan x="-2" y="14" class="st1">COMMUNITY</tspan></text>
+	<text><tspan x="-2" y="2" class="st1">ACTIVITY</tspan><tspan x="-2" y="7" class="st1">CONTRIBUTOR</tspan><tspan x="-2" y="12" class="st1">COMMUNITY</tspan></text>
 
 	/* Activity */
 	<use x="0" y="0" xlink:href="#starrow"/>
@@ -73,15 +75,15 @@
 	<use x="10" y="0" xlink:href="#earnedxp" class="activity"/>
 
 	/* Contributor */
-	<use x="0" y="6" xlink:href="#counter" class="contributor"/>
-	<text x="13" y="8" class="st1">x7</text>
+	<use x="0" y="5" xlink:href="#counter" class="contributor"/>
+	<text x="12" y="7" class="st1">x7</text>
 
 	/* Community */
-	<use x="0" y="12" xlink:href="#starrow"/>
-	<use x="0" y="12" xlink:href="#earnedxp" class="community"/>
+	<use x="0" y="10" xlink:href="#starrow"/>
+	<use x="0" y="10" xlink:href="#earnedxp" class="community"/>
 </g>
 
-<text class="st3"><tspan x="40" y="78	">Arbitrary Update Scarf</tspan><tspan x="40" y="81">0x128a...175f</tspan></text>
+<text class="st3"><tspan x="40" y="76">Arbitrary Update Scarf</tspan><tspan x="40" y="79">0x128a...175f</tspan></text>
 
 /* Bunny PFP */
 <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg" x="20" y="20">
